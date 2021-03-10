@@ -1,0 +1,6 @@
+.wrapper {
+    box-sizing: border-box;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
