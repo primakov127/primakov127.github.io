@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(99, 127, 131);
+}
+
 .wrapper {
     box-sizing: border-box;
     max-width: 1170px;
