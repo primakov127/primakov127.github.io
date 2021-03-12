@@ -1,0 +1,5 @@
+.people-info {
+    display: flex;
+
+    flex-wrap: wrap;
+}
