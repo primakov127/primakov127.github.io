@@ -10,3 +10,7 @@
 @import "components/people-card/people-card.css";
 @import "components/sections/featured-section.css";
 @import "components/sections/portfolio-section.css";
+@import "components/sections/footer-section.css";
+@import "components/mailing/mailing.css";
+@import "components/social/social.css";
+@import "components/copyright/copyright.css";

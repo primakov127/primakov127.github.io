@@ -1,0 +1,37 @@
+.social {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social__item {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.social__item h4 {
+    font-size: 18px;
+    color: rgb(99, 127, 131);
+    font-weight: 700;
+}
+
+.social__item p {
+    font-size: 14px;
+    color: rgb(181, 199, 201);
+    margin-top: 5px;
+}
+
+.social__icon {
+    display: flex;
+
+    width: 70px;
+    height: 70px;
+
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(228, 85, 29);
+
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
