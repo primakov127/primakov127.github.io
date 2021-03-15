@@ -4,4 +4,7 @@
 
 .featured-content__container {
     display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
 }

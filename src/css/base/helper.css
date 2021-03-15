@@ -3,8 +3,9 @@
 }
 
 body {
-    font-family: "Source Sans Pro", sans-serif;
     color: rgb(99, 127, 131);
+
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .wrapper {

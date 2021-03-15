@@ -2,7 +2,7 @@
     display: flex;
 
     width: 570px;
-    height: 100px;
+    min-height: 100px;
     margin-bottom: 30px;
 }
 
@@ -42,6 +42,12 @@
 
 .people-card__description::after {
     content: "+ more";
+
     color: rgb(228, 85, 29);
 }
 
+@media only screen and (max-width: 1169px) {
+    .people-card:nth-child(odd) {
+        margin-right: 0;
+    }
+}

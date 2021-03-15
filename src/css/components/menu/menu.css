@@ -33,3 +33,9 @@
 
     color: rgb(99, 127, 131);
 }
+
+@media only screen and (max-width: 1200px) {
+    .menu {
+        display: none;
+    }
+}

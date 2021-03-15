@@ -1,24 +1,30 @@
 .social {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .social__item {
     display: flex;
-    align-items: center;
+
+    min-width: 270px;
     margin-right: auto;
+
+    align-items: center;
 }
 
 .social__item h4 {
-    font-size: 18px;
     color: rgb(99, 127, 131);
+
+    font-size: 18px;
     font-weight: 700;
 }
 
 .social__item p {
-    font-size: 14px;
-    color: rgb(181, 199, 201);
     margin-top: 5px;
+
+    color: rgb(181, 199, 201);
+
+    font-size: 14px;
 }
 
 .social__icon {
@@ -26,6 +32,7 @@
 
     width: 70px;
     height: 70px;
+    margin-right: 20px;
 
     color: white;
     border-radius: 50%;
@@ -33,5 +40,14 @@
 
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .social {
+        flex-direction: column;
+    }
+
+    .social__item {
+        margin: 10px auto 0;
+    }
 }

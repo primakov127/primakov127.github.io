@@ -60,14 +60,31 @@
 
 .banner__pointer::after {
     position: relative;
-    left: 50%;
-    width: 0;
     top: 15%;
+    left: 50%;
 
     display: inline-block;
+
+    width: 0;
 
     content: "\279E";
     transform: rotate(90deg) scale(2);
 
     color: white;
+}
+
+@media only screen and (max-width: 570px) {
+    .banner__title {
+        font-size: 28px;
+    }
+
+    .banner__text {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    .banner__title {
+        font-size: 24px;
+    }
 }
