@@ -1,10 +1,14 @@
 .header {
     display: flex;
-    flex-wrap: wrap;
+
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
 
     font-weight: bold;
 
     align-self: center;
+    flex-wrap: wrap;
 }
 
 .header__logo {
